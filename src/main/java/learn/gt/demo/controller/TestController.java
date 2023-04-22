@@ -22,7 +22,7 @@ public class TestController {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return new ResponseEntity<>("Hello from IP: "+ ip, HttpStatus.OK);
+		return new ResponseEntity<>("Hello from : "+ ip, HttpStatus.OK);
 	} 
 	
 
